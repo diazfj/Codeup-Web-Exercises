@@ -1,12 +1,23 @@
 body {font-family: "helvetica";
 		font-size: 16px;}
-#authorwrong {text-transform: uppercase;
-		font-family: "comic sans"
-		background-color: red ;}
-#authorright {text-transform: uppercase;
-		font-family: "comic sans"}		
+#main-title {font-family: "times new roman bold";
+		font-weight: bolder;}
+#author-wrong {text-transform: uppercase;
+		font-family: "courier";
+		font-weight: bold;
+		font-size: 24px;
+		background-color: red ;
+		text-decoration: line-through;}
+#author-right {text-transform: uppercase;
+		font-family: "courier";
+		font-size: 24px;
+		font-weight: bold;}		
 p {text-indent: 50px;}
 #quotes {text-align: right;}
-a:link {color: yellow;}
+a {font-family: "papyrus";
+	text-decoration: none;
+	font-size: 40px}
 a:hover {text-decoration: underline;}
+a:link {color: #aaa;}
+
 	
