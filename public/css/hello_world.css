@@ -1,0 +1,17 @@
+/*body {font-family: 'Permanent Marker', cursive;}*/
+body {font-family: "comic sans ms", "helvetica", "times roman";
+		background-color: yellow;
+		background-image: url("/img/wrench.png");
+	} 
+ul {list-style: upper-alpha;
+    }
+ol {list-style: square;
+	}
+table, td ,tr {border:3px solid black;
+			padding: 10px;
+			font-size: 20px}
+h1, h2, h3 {text-decoration: underline;}
+a:link {color: green;}
+a:visited {color: purple;}
+a:hover {color: red;}
+a:active {color: blue;}

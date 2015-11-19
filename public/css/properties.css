@@ -1,0 +1,20 @@
+/*REMEMBER TO PUT THIS FILE INSIDE YOUR CSS DIRECTORY*/
+#test{
+	color:red;
+}
+#page-header {
+	color:#0f0;
+	font-family: "comic sans ms", "webding", Serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.todo-item>h1 {
+	text-decoration: underline;
+}
+.todo-item>a {
+	color:#f00;
+}
+li {
+	text-indent: 150px;
+	text-align: right; 
+}
