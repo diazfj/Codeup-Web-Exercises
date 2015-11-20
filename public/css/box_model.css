@@ -1,0 +1,57 @@
+body {
+	font-size: 16px;
+	font-weight: bolder;}
+a {font-size: 40px}
+#redbox{ 	
+	color: white;
+	background: red;
+	width: 150px;
+	height:50px;
+	margin: 10px 10px 10px 0px;
+	border: 1px solid black;
+	padding: 10px;}
+#orangebox{ 	
+	color: white;
+	background: orange;
+	width: 150px;
+	height:50px;
+	margin: 10px 10px 10px 30px;
+	border: 1px solid black;
+	padding: 10px;
+	}
+#yellowbox{ 	
+	color: white;
+	background: yellow;
+	width: 150px;
+	height:50px;
+	margin: 10px 10px 10px 60px;
+	border: 1px solid black;
+	padding: 10px;
+	}
+#greenbox{ 	
+	color: white;
+	background: green;
+	width: 150px;
+	height:50px;
+	margin: 10px 10px 10px 90px;
+	border: 1px solid black;
+	padding: 10px;
+	}
+#bluebox{ 	
+	color: white;
+	background: blue;
+	width: 150px;
+	height:50px;
+	margin: 10px 10px 10px 120px;
+	border: 1px solid black;
+	padding: 10px;
+	}
+#violetbox{ 	
+	color: white;
+	background: violet;
+	width: 150px;
+	height:50px;
+	margin: 10px 10px 10px 150px;
+	border: 1px solid black;
+	padding: 10px;
+	}	
