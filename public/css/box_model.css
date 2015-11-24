@@ -12,25 +12,26 @@ body {
 a {font-size: 40px;
 	/*clear: right;*/
 	}
-section{width: 250px;
+section{width: 300px;
 		height:200px;
 		float:left;
 		background: grey;
+		position:relative;
 	}
 .box {float: left;
 	position:relative;
 	width: 50px;
 	height:50px;
-	margin: 15px; 
+	margin: 20px; 
 	border: 1px solid black;
 	padding: 10px;
 	font-size: 8px;
 }
 .arrow {position:absolute;
-	top: -40px;
-	right: -40px;
-	width: 30px;
-	height: 30px;
+	top: -30px;
+	right: -30px;
+	width: 40px;
+	height: 40px;
 }
 #redbox{ 	
 	color: white;
