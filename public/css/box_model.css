@@ -1,63 +1,75 @@
 html {
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 body {
 	font-size: 16px;
-	font-weight: bolder;}
-a {font-size: 40px}
+	font-weight: bolder;
+	/*clear: right;*/
+	}
+a {font-size: 40px;
+	/*clear: right;*/
+	}
+section{width: 250px;
+		height:150px;
+		float:left;
+		background: grey;
+	}
+.box {float: left;
+}
 #redbox{ 	
 	color: white;
 	background: red;
-	width: 150px;
+	width: 50px;
 	height:50px;
-	margin: 10px 10px 10px 0px;
+	margin: 10px; 
 	border: 1px solid black;
-	padding: 10px;}
+	padding: 10px;
+	}
 #orangebox{ 	
 	color: white;
 	background: orange;
-	width: 150px;
+	width: 50px;
 	height:50px;
-	margin: 10px 10px 10px 30px;
+	margin: 10px;
 	border: 1px solid black;
 	padding: 10px;
 	}
 #yellowbox{ 	
 	color: white;
 	background: yellow;
-	width: 150px;
+	width: 50px;
 	height:50px;
-	margin: 10px 10px 10px 60px;
+	margin: 10px;
 	border: 1px solid black;
 	padding: 10px;
 	}
 #greenbox{ 	
 	color: white;
 	background: green;
-	width: 150px;
+	width: 50px;
 	height:50px;
-	margin: 10px 10px 10px 90px;
+	margin: 10px;
 	border: 1px solid black;
 	padding: 10px;
 	}
 #bluebox{ 	
 	color: white;
 	background: blue;
-	width: 150px;
+	width: 50px;
 	height:50px;
-	margin: 10px 10px 10px 120px;
+	margin: 10px;
 	border: 1px solid black;
 	padding: 10px;
 	}
 #violetbox{ 	
 	color: white;
 	background: violet;
-	width: 150px;
+	width: 50px;
 	height:50px;
-	margin: 10px 10px 10px 150px;
+	margin: 10px;
 	border: 1px solid black;
 	padding: 10px;
 	}	
