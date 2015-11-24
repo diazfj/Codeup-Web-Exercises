@@ -18,6 +18,11 @@ section{width: 250px;
 		background: grey;
 	}
 .box {float: left;
+
+}
+.arrow {position:relative;
+	top: -40px;
+	right: -40px;
 }
 #redbox{ 	
 	color: white;
