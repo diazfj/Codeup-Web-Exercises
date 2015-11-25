@@ -8,27 +8,27 @@ body {
 	font-size: 16px;
 	font-weight: bolder;
 	}
-a {font-size: 30px;
+a {font-size: 32px;
 	}
-section{width: 300px;
+section{width: 400px;
 		height: 200px;
 		margin: 20px 0px;
 		float:left;
 	}
 .box {float: left;
 	position:relative;
-	width: 50px;
-	height:50px;
-	margin: 20px; 
+	width: 72px;
+	height:72px;
+	margin: 25px; 
 	border: 1px solid black;
 	padding: 10px;
-	font-size: 8px;
+	font-size: 14px;
 }
 .arrow {position:absolute;
-	top: -30px;
-	right: -30px;
-	width: 40px;
-	height: 40px;
+	top: -40px;
+	right: -40px;
+	width: 55px;
+	height: 55px;
 }
 #redbox{ 	
 	color: white;
