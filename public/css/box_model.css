@@ -6,15 +6,18 @@ html {
 }
 body {
 	font-size: 16px;
-	font-weight: bolder;
+	font-weight: bold;
 	}
 a {font-size: 32px;
+	font-family: 'Permanent Marker', cursive;
 	}
 section{width: 400px;
 		height: 200px;
 		margin: 20px 0px;
 		float:left;
 	}
+div:nth-child(4) {clear: left;}
+/*.box:nth-child(3n) {clear: left;}*/
 .box {float: left;
 	position:relative;
 	width: 72px;
@@ -23,6 +26,8 @@ section{width: 400px;
 	border: 1px solid black;
 	padding: 10px;
 	font-size: 14px;
+	color: white;
+	font-family: 'Cinzel', serif;
 }
 .arrow {position:absolute;
 	top: -40px;
@@ -31,28 +36,22 @@ section{width: 400px;
 	height: 55px;
 }
 #redbox{ 	
-	color: white;
 	background: red;
-	margin-left: 0px;
+	/*margin-left: 0px;*/
 	}
 #orangebox{ 	
-	color: white;
 	background: orange;
 	}
 #yellowbox{ 	
-	color: white;
 	background: yellow;
 	}
 #greenbox{ 	
-	color: white;
 	background: green;
-	margin-left: 0px;
+	/*margin-left: 0px;*/
 	}
 #bluebox{ 	
-	color: white;
 	background: blue;
 	}
 #violetbox{ 	
-	color: white;
 	background: violet;
 	}
