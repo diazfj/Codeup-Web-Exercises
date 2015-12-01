@@ -1,0 +1,17 @@
+body{
+	background: #e1e1e1;
+}
+aside{float: left;
+		background: white;
+		padding: 20:px;
+		margin: 20px;
+		border-radius: 3px;
+		width: 20%;
+}
+img{float: left;
+	height: 300px;
+	}
+section{width: 60%;
+	float: left;}
+footer{clear: both;}
+footer ul li{display: inline;}
