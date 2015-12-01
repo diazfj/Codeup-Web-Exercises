@@ -1,17 +1,21 @@
 body{
 	background: #e1e1e1;
 }
-aside{float: left;
-		background: white;
+nav{background: #aaa;}
+aside{	background: white;
 		padding: 20:px;
 		margin: 20px;
 		border-radius: 3px;
 		width: 20%;
 }
+.lside{float:left;}
 img{float: left;
 	height: 300px;
 	}
-section{width: 60%;
-	float: left;}
-footer{clear: both;}
+section{width: 50%;
+	float: left;
+	background: grey}
+.rside{float: right;}
+footer{clear: both;
+		background: #aaa;}
 footer ul li{display: inline;}
