@@ -1,0 +1,18 @@
+
+
+.japan{
+	height: 100px;
+	width: 200px;
+	border: 1px solid black;
+	margin: 0, auto;
+	padding: 30px;
+}
+.circle{width:100px;
+	height:100px;
+	border-radius:50px;
+	color:red;
+	background:red;
+	margin-left: 50px;
+}
+
+
