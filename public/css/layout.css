@@ -17,5 +17,7 @@ section{width: 50%;
 	background: grey}
 .rside{float: right;}
 footer{clear: both;
-		background: #aaa;}
-footer ul li{display: inline;}
+		background: #aaa;
+		}
+footer ul li{display: inline;
+	}
