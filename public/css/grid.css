@@ -9,10 +9,12 @@ html {
 	width: 80%;
 	max-width: 1200px;
 	background-color: red;
+	border: 3px solid yellow;
 }
 .row{
 	width: 100%;
 	background-color: pink;
+	border: 5px solid coral;
 }
 .row:after{
 	content:"";
@@ -22,6 +24,9 @@ html {
 .column {
 	float: left;
 	padding: 10px;
+	background-color: blue;
+	border:5px solid black;
+
 }
 .column.one-third {
 	width: 33.33%;
