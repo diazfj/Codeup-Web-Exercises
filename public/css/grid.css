@@ -9,7 +9,7 @@ html {
 	width: 80%;
 	max-width: 1200px;
 	background-color: red;
-	border: 3px solid yellow;
+	border: 10px solid green;
 }
 .row{
 	width: 100%;
@@ -34,3 +34,13 @@ html {
 .column.one-half {
 	width:50%;
 }
+.column.one-fourth {
+	width:25%;
+}
+.column.one-sixth {
+	width:16.66%;
+}
+.column.one-eighth {
+	width:12.5%;
+}
+
