@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+	background-color: red;
+}
+.row{
+	width: 100%;
+	background-color: pink;
+}
+.row:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.column {
+	float: left;
+	padding: 10px;
+}
+.column.one-third {
+	width: 33.33%;
+}
+.column.one-half {
+	width:50%;
+}
