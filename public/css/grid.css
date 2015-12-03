@@ -9,7 +9,7 @@ html {
 	width: 80%;
 	max-width: 1200px;
 	background-color: red;
-	border: 10px solid green;
+	border: 15px solid green;
 }
 .row{
 	width: 100%;
@@ -24,23 +24,23 @@ html {
 .column {
 	float: left;
 	padding: 10px;
-	background-color: blue;
-	border:5px solid black;
+	background-color: magenta;
+	border:5px solid yellow;
 
 }
 .column.one-third {
 	width: 33.33%;
 }
 .column.one-half {
-	width:50%;
+	width: 50%;
 }
 .column.one-fourth {
-	width:25%;
+	width: 25%;
 }
 .column.one-sixth {
-	width:16.66%;
+	width: 16.66%;
 }
 .column.one-eighth {
-	width:12.5%;
+	width: 12.5%;
 }
 
