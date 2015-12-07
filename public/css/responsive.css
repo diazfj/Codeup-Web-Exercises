@@ -1,0 +1,43 @@
+/*body{background-color: grey;}*/
+.box{
+	height: 50px;
+	width: 100px;
+}
+@media screen and (max-width:500px) {
+    body {
+        background-color: red;
+    }
+}
+@media screen and (min-width:501px) and (max-width:759px) {
+    body {
+        background-color: orange;
+    }
+}
+@media screen and (min-width:760px) and (max-width:959px) {
+    body {
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:960px) and (max-width:1200px) {
+	body {
+        background-color: green;
+    }
+}
+.redb{
+	background-color: red;
+}
+.orab{
+	background-color: orange;
+}
+.yelb{
+	background-color: yellow;
+}
+.greb{
+	background-color: green;
+}
+.blub{
+	background-color: blue;
+}
+@media screen and (min-width: 500px){
+	body{}
+}
