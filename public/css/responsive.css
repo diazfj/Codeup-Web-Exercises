@@ -1,16 +1,32 @@
 /*body{background-color: grey;}*/
 .box{
-	height: 50px;
-	width: 100px;
+	height: 100px;
+	width: 200px;
+	float: left;
+	border: solid black;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
     body {
         background-color: red;
     }
+    ul li {display: inline;
+    	border: solid black;
+    }
 }
-@media screen and (min-width:501px) and (max-width:759px) {
+@media screen and (min-width:551px) and (max-width:759px) {
     body {
         background-color: orange;
+    }
+}
+@media screen and (min-width:551px){    
+     nav{ width: 100px;
+     	height: 400px;
+     	float:left;
+     	border: solid black;
+	}
+    /* ul li {
+     	border :solid black;
+     	float:left;*/
     }
 }
 @media screen and (min-width:760px) and (max-width:959px) {
