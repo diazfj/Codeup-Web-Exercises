@@ -9,7 +9,10 @@
     body {
         background-color: red;
     }
-    ul li {display: inline;
+    ul li {
+    	display: inline;
+    	font-size: 2rem;
+    	text-align: center;
     	border: solid black;
     }
 }
@@ -24,10 +27,6 @@
      	float:left;
      	border: solid black;
 	}
-    /* ul li {
-     	border :solid black;
-     	float:left;*/
-    }
 }
 @media screen and (min-width:760px) and (max-width:959px) {
     body {
