@@ -1,0 +1,18 @@
+body{background-color: beige;
+}
+.main-phrase{font-size: 32px;
+	font-family: snell roundhand;
+}
+.navbar-nav{background-color: pink;
+	text-align: center;
+	/*display: inline;*/
+}
+.highlights{height: 50px
+	width:auto;
+	margin:5px;
+	border: solid 5px;
+	padding: 5px;
+	text-align: center;
+	background-color: magenta;
+	color:white;
+}
