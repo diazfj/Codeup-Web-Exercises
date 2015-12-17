@@ -1,32 +1,39 @@
 body{background-color: beige;
 }
-.main-phrase{font-size: 32px;
+.page{
+	width: 415px;
+	height:950px;
+	text-align: center;
+	border: solid #FF1493;
+	padding:0;
+}
+.top-container{
+	width: 410px;
+	height: 475px;
+	border:solid;
+}
+.main-phrase{
+	font-size: 32px;
 	font-family: snell roundhand;
 	color:purple;
 }
-.navbar-nav{background-color: pink;
-	text-align: center;
-	/*display: inline;*/
-}
-
-.highlights{height: 50px
+.highlights{
+	height: 40px;
 	width:auto;
-	margin:5px;
+	margin:0;
 	border: solid 5px;
-	padding: 5px;
-	text-align: center;
-	background-color: magenta;
+	padding:5px;
+	background-color:#FF1493;
 	color:white;
 }
-.market-images img{
-	text-align: center;
-	float: left;
-	margin: 10px;
-	border: 10px;
-
+/*.bottom-margin-zero{
+	margin-bottom: 0;
+	margin-top: 5px;
+}*/
+.top-market-images{
+	margin-bottom: 5px;
 }
-.address{text-align: center;
-	color: magenta;
-	font-size: 18px;
+.address{
+	color: #FF1493;
+	font-size: 16px;
 }
-footer{text-align: center}
