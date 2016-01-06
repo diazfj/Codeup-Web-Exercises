@@ -8,7 +8,7 @@ body{background-color: beige;
 	padding:0;
 }
 .top-container{
-	width: 410px;
+	width: 413px;
 	height: 475px;
 	border:solid;
 }
@@ -26,14 +26,31 @@ body{background-color: beige;
 	background-color:#FF1493;
 	color:white;
 }
-/*.bottom-margin-zero{
-	margin-bottom: 0;
-	margin-top: 5px;
-}*/
 .top-market-images{
 	margin-bottom: 5px;
 }
 .address{
 	color: #FF1493;
 	font-size: 16px;
+}
+header{
+	height: 30px;
+}
+.main-paragraph{
+	font-size: 12px;
+	font-family: serif;
+	font-weight: bolder;
+	text-align: left;
+	padding: 25px;
+}
+.business-links{
+	background-color: orange;
+	color: white;
+	font-size: 8px;
+	height: 40px;
+	/*text-align: left;*/
+	padding-top: 5px;
+	padding-left: 15px;
+
+
 }
