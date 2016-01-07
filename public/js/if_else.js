@@ -15,7 +15,7 @@ else if (color=='orange'){
 	console.log("A Clockwork Orange");
 }
 else if (color=='yellow'){
-	console.log("Old Yeller");
+	console.log("Yellow Beard");
 }
 else if (color=='green'){
 	console.log("Green Berets");
