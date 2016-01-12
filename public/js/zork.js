@@ -17,9 +17,9 @@ var houseMessage = "Dave finally reaches a house.  Is it his house?  His memory 
 
 var winMessage = "Dave collapses on the couch inside the door.  He\'s still not sure this is his house but he feels a sense of accomplishment.  If life were a game, he\'d surely be winning."
 
-var notLocation = "Sorry, you cannot go that way"
+var notLocation = "Sorry, you cannot go that way";
 
-var gameoverMessage ="You drank poisoned water. Game Over."
+var gameoverMessage ="You drank poisoned water. Game Over.";
 
 
 //TODO: Use a while loop to determine if the player is at the win (winning) destination.  
@@ -41,10 +41,8 @@ while(currentLocation!=winDestination){
 			response = prompt("Where would you like to go next?");
 			if(response=="go west"){
 				currentLocation = "house";
-				// alert(houseMessage);
 			}else if(response=="go south"){
 				currentLocation = "clearing";
-				// alert(clearingMessage);
 			}else{
 				alert(notLocation);
 			}	
@@ -70,9 +68,9 @@ while(currentLocation!=winDestination){
 				currentLocation = "house";
 			}else if(response=="go east"){
 				currentLocation = "clearing";
-			// }else if(response=="drink the water"){
-			// 	currentLocation = "hades";								alert(gameoverMessage);
-			// 	alert(gameoverMessage);
+			}else if(response=="drink the water"){
+				currentLocation = "insideHouse";								
+				alert(gameoverMessage);
 			}else {
 				alert(notLocation);
 			}	
@@ -87,7 +85,5 @@ while(currentLocation!=winDestination){
 			}else {
 				alert(notLocation);
 			}	
-	
 	}
-
 }
