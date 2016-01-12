@@ -20,11 +20,12 @@
 				
 		var y=1;
 		do {
-			if (x!=y){
-				console.log("Here is an odd number: ", y);
-				y=y+2;
-			}else{
-				console.log("Yikes! Skipping number: ",x);
+				{
+				if (x!=y){
+					console.log("Here is an odd number: ", y);
+				}else{
+					console.log("Yikes! Skipping number: ",x);
+				}
 				y=y+2;
 			}
 		}while (y<50);
