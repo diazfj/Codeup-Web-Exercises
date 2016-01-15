@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+	"use strict";
+
+		//change string to uppercase
+		function changeToUpper(stringEntered){
+			stringEntered = stringEntered.toUpperCase();
+			return stringEntered;
+		}
+		console.log(changeToUpper("rty"));
+
+		
+		//concatenate three words
+		function concatenate(c1, c2, c3){
+			var c123 = c1 + c2 + c3;
+			return c123;
+		}
+		console.log(concatenate("What", "Is", "Love"));
+
+		//Farenheit to Celsius
+		function fToc(f){
+			var c=(5/9)*(f-32);
+			return c;
+		}
+		console.log(fToc(72));
+
+		//lbs to kg
+		function lbsToKg(lbs){
+			var kg=lbs*0.453592;
+			return kg;
+		}
+		console.log(lbsToKg(173));
+
+		//make sure a string is between 5 and 10 characters
+		function charPolice(countMe){
+			var charLength = countMe.length;
+				if ((charLength > 5) && (charLength < 10)) {
+					console.log ("This string is compliant " + charLength);
+				}else {
+					console.log ("String not compliant " + charLength);
+				}
+				return charLength;
+		}
+		charPolice("12345");
+
+		//determine if letter given is a vowel
+		var vowel = "aeiouAEIOU";
+		function vowelCheck(v){
+			if (vowel.indexOf(v) > -1) {
+				console.log("This is a vowel");
+			}else
+				console.log("Not a vowel");
+		}
+		vowelCheck("q");
+
+	</script>
+</body>
+</html>
